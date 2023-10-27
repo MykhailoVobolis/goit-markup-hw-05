@@ -36,6 +36,15 @@ img, svg{
     display: block;
 }
 
+button {
+    font-family: inherit;
+    color: currentColor;
+}
+
+input {
+    font-family: inherit;
+}
+
 /* Header */
 
 .main-header-container{
@@ -487,4 +496,28 @@ font-size: 20px;
 
 .footer-social .social-list-link:hover, .footer-social .social-list-link:focus{
     background-color: #31d0aa;
+}
+
+/* Modal-window */
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 408px;
+    gap: 8px;
+    padding: 24px;
+    background-color: #31d0aa;
+}
+
+.form-label{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+
+}
+
+.form-button{
+    align-self: center;      
 }
