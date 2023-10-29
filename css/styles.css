@@ -549,15 +549,16 @@ font-size: 20px;
 }
 
 .close-window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-self: flex-end;
-background-color: #e7e9fc;
-    color: #ffffff;
+    background-color: #e7e9fc;
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 50%;
     min-width: 24px;
     height: 24px;
-    padding: 8px;
     margin-bottom: 16px;
 }
 
