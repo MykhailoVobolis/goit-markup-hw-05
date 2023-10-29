@@ -491,6 +491,22 @@
             </li>
           </ul>
         </div>
+
+        <!-- Footer-subscribe -->
+
+        <form
+          class="subscribe-form"
+          name="Subscribe"
+          action=""
+          autocomplete="off"
+          novalidate
+        >
+          <label>
+            Subscribe
+            <input type="email" name="email" placeholder="E-mail" />
+            <button class="subscribe-button" type="submit">Subscribe</button>
+          </label>
+        </form>
       </div>
     </footer>
 
@@ -503,27 +519,39 @@
         novalidate
       >
         <button class="close-window"></button>
-        <p>Leave your contacts and we will call you back</p>
+        <p class="text-modal-form">
+          Leave your contacts and we will call you back
+        </p>
         <label class="form-label">
-          Name
+          <span class="label-text">Name</span>
           <input class="form-input" type="text" name="name" />
         </label>
         <label class="form-label">
-          Phone
+          <span class="label-text">Phone</span>
           <input class="form-input" type="tel" name="phone" />
         </label>
         <label class="form-label">
-          Email
+          <span class="label-text">Email</span>
           <input class="form-input" type="email" name="email" />
         </label>
         <label class="form-label">
-          Comment
-          <input class="form-input" type="text" name="comment" />
+          <span class="label-text">Comment</span>
+          <textarea
+            class="form-input"
+            name="comment"
+            rows="7"
+            placeholder="Text input"
+          ></textarea>
         </label>
-        <!-- <label for="">
-          Comment
-          <input type="text" />
-        </label> -->
+        <label class="checkbox-label">
+          <input
+            type="checkbox"
+            name="privacy-policy"
+            value="agreement with the privacy policy"
+          />
+          I accept the terms and conditions of the
+          <span><a class="privacy-policy" href="#">Privacy Policy</a></span>
+        </label>
         <button class="form-button" type="submit">Send</button>
       </form>
     </div>
