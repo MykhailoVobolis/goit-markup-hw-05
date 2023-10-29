@@ -597,6 +597,11 @@ padding: 11px;
         align-items: center;
 }
 
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
 .privacy-policy{
     color: #4d5ae5;
     text-decoration: underline;
