@@ -528,6 +528,16 @@ font-size: 20px;
     background-color: #fcfcfc;
 }
 
+.modal-form-position{
+    position: relative;
+}
+
+.modal-icon-position{
+    position: absolute;
+        top: 7px;
+        left: 16px;
+}
+
 .form-label{
     display: flex;
     flex-direction: column;
@@ -557,9 +567,25 @@ font-size: 20px;
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 50%;
-    min-width: 24px;
+    width: 24px;
     height: 24px;
     margin-bottom: 16px;
+}
+
+.close-window:active{
+    border: none;
+    background-color: #404bbf;
+}
+
+.close-icon{
+    fill: #2e2f42;
+    min-width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+
+.close-icon:active{
+    fill: #ffffff;
 }
 
 .label-text{
@@ -578,6 +604,7 @@ padding: 11px;
     line-height: 1.16;
     letter-spacing: 0.48px;
     resize: none;
+    width: 360px;
 }
 
 .form-input:focus-within{
