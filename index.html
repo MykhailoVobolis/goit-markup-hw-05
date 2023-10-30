@@ -497,14 +497,20 @@
         <form
           class="subscribe-form"
           name="Subscribe"
-          action=""
           autocomplete="off"
           novalidate
         >
-          <label>
-            Subscribe
-            <input type="email" name="email" placeholder="E-mail" />
-            <button class="subscribe-button" type="submit">Subscribe</button>
+          <label class="title-form-subscribe">
+            <span class="title-subscribe">Subscribe</span>
+            <div>
+              <input
+                class="subscribe-email"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+              <button class="subscribe-button" type="submit">Subscribe</button>
+            </div>
           </label>
         </form>
       </div>
@@ -559,7 +565,6 @@
           <textarea
             class="form-input comment-input"
             name="comment"
-            rows="7"
             placeholder="Text input"
           ></textarea>
         </label>
