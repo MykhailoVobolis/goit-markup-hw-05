@@ -529,6 +529,7 @@ font-size: 20px;
   border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #2e2f42;
+outline: none;
 }
 
 .subscribe-email::placeholder{
@@ -600,7 +601,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input:hover + .modal-icon-position{
+.form-label input:focus + svg{
     fill: #4d5ae5;
 }
 
@@ -672,7 +673,7 @@ padding: 11px 11px 11px 34px;
     line-height: 1.16;
     letter-spacing: 0.48px;
     width: 100%;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-input{
@@ -690,8 +691,8 @@ height: 120px;
         letter-spacing: 0.48px;
 }
 
-.form-input:focus-within{
-    border-color: #4d5ae5;
+.form-label input:focus{
+    border: 1px solid #4d5ae5;
 }
 
 .checkbox-label{
