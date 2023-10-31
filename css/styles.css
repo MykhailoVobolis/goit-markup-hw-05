@@ -500,16 +500,13 @@ font-size: 20px;
 
 /* Footer-subscribe */
 
+.subscribe-menu{
+    margin-left: 80px;
+}
+
 .subscribe-form{
     display: flex;
     gap: 24px;
-}
-
-.title-form-subscribe{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-left: 80px;
 }
 
 .title-subscribe{
@@ -518,6 +515,7 @@ font-size: 20px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        margin-bottom: 16px;
 }
 
 .subscribe-email{
@@ -531,8 +529,8 @@ font-size: 20px;
   height: 40px;
   border: 1px solid #ffffff;
   border-radius: 4px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
 outline: none;
 }
 
@@ -559,13 +557,14 @@ outline: none;
         height: 40px;
         padding: 8px 24px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        display: inline-flex;
-        justify-content: space-between;
-        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .telegram-icon{
     fill: #ffffff;
+    margin-left: 16px;
 }
 
 /* Modal-window */
