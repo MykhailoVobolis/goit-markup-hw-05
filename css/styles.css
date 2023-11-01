@@ -2,7 +2,6 @@ body{
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
-    /* width: 1440px; */
 }
 
 ul{
@@ -766,7 +765,7 @@ position: absolute;
     border-radius: 2px;
 }
 
-.custom-check-icon + .visually-hidden:checked{
+.visually-hidden:checked + .checkbox-label .custom-check-icon{
 background-color: #404bbf;
 border: none;
 fill: #f4f4fd;
