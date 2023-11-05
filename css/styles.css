@@ -577,16 +577,16 @@ outline-offset: 4px;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-/* приховування бекдропу */
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
 /* показ бекдропу */
-.is-open{
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* приховування бекдропу */
+.is-hidden{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
 }
 
 .modal-window {
